@@ -29,6 +29,8 @@ fi
 if $check; #outputs result 
     then
 	echo "true"
+	echo "Leapyear!"
     else
 	echo "false"
+	echo "not a leapyear"
 fi
