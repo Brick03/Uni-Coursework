@@ -1,1 +1,0 @@
-grep -E'[a-z]' /etc/services | awk '{print $1}' | sort | uniq >> ~/uniqueservices.txt | wc -l
